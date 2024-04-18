@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  ocp-operator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-18T08:20:21.738436-05:00"
+    description: A Helm chart for Kubernetes
+    digest: d6f61fc28b6696432099a0f39223b80a720d05d1a6974c9e2304e2b9e9fe61b7
+    name: ocp-operator
+    type: application
+    urls:
+    - https://snimmo.github.io/helm-charts/sources/ocp-operator-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-18T08:20:21.73796-05:00"
