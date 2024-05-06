@@ -1,0 +1,6 @@
+{{- if ne .Values.targetNamespace "openshift-operators" -}}
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: {{ .Values.targetNamespace }}
+{{- end }}
